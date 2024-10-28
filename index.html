@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DynaPuff:wght@400..700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+<body>
+  <div class="wrapper">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+    <form id="registrationForm" onsubmit="return handleSubmit(event)">
+        <h2>Basic Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="button" onclick="togglePasswordVisibility('password')">Show</button>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <button type="button" onclick="togglePasswordVisibility('confirmPassword')">Show</button>
+
+        <h2>Address Information</h2>
+        <label for="permanentAddress">Permanent Address:</label>
+        <input type="text" id="permanentAddress" name="permanentAddress" required>
+
+        <label for="permanentCity">City:</label>
+        <input type="text" id="permanentCity" name="permanentCity" required>
+
+        <label for="permanentZip">Zip Code:</label>
+        <input type="text" id="permanentZip" name="permanentZip" required>
+
+        <label for="permanentCountry">Country:</label>
+        <input type="text" id="permanentCountry" name="permanentCountry" required>
+
+        <input type="checkbox" id="sameAddress" name="sameAddress" onclick="copyAddress()"> Use Permanent Address as Current Address
+
+        <label for="currentAddress">Current Address:</label>
+        <input type="text" id="currentAddress" name="currentAddress" required>
+
+        <label for="currentCity">City:</label>
+        <input type="text" id="currentCity" name="currentCity" required>
+
+        <label for="currentZip">Zip Code:</label>
+        <input type="text" id="currentZip" name="currentZip" required>
+
+        <label for="currentCountry">Country:</label>
+        <input type="text" id="currentCountry" name="currentCountry" required>
+
+        <h2>Educational Qualifications</h2>
+        <label for="qualification">Latest Qualification:</label>
+        <select id="qualification" name="qualification" onchange="showQualificationFields()" required>
+            <option value="">Select Qualification</option>
+            <option value="12th">12th</option>
+            <option value="Graduation">Graduation</option>
+            <option value="PostGraduation">Post Graduation</option>
+        </select>
+
+        <div id="educationFields"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

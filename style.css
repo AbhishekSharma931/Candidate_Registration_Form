@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #befb46;
+  }
+  
+  h2, h3 {
+    color: #333;
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 3px solid green;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-family: "Archivo Black", sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 5px 5px gray;
+  }
+  /* Animation work */
+.wrapper span{
+  position: fixed;
+  top: -120px;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+  animation: animate 10s linear infinite;    
+}
+.wrapper span:nth-child(1){
+  left: 60px;
+  animation-delay:0.3s;
+  border: 5px solid cyan;
+}
+.wrapper span:nth-child(2){
+  left: 60%;
+  animation-delay: 2s;
+  width: 60px;
+  height: 60px;
+  background: #ff4293;
+}
+.wrapper span:nth-child(3){
+  left: 20%;
+  animation-delay: 2s;
+  border: 5px solid #fff;    
+}
+.wrapper span:nth-child(4){
+  left: 30%;
+  animation-delay: 4s;
+  width: 80px;
+  height: 80px;
+  background: #befb46;
+}
+.wrapper span:nth-child(5){
+  left: 40%;
+  animation-delay: 1s;
+  border: 5px solid #ff4293;
+}
+.wrapper span:nth-child(6){
+  left: 50%;
+  animation-delay: 5s;
+  border: 5px solid deepskyblue;
+}
+.wrapper span:nth-child(7){
+  left: 60%;
+  animation-delay: 4s;
+  width: 100px;
+  height: 100px;
+  background: #ffd59e;
+}
+.wrapper span:nth-child(8){
+  left: 70%;
+  animation-delay: 6s;
+  border: 5px solid #befb46;
+}
+.wrapper span:nth-child(9){
+  left: 80%;
+  animation-delay: 6s;
+  width: 90px;
+  height: 90px;
+  background: cyan;
+}
+.wrapper span:nth-child(10){
+  left: 90%;
+  animation-delay: 4s;
+  border: 5px solid #fff;    
+}
+@keyframes animate{
+  0%{
+      transform: translateY(0);
+      opacity: 1;
+  }
+  80%{
+      opacity: 0.7;
+  }
+  100%{
+      transform: translateY(800px) rotate(360deg);
+      opacity: 0;
+  }
+}
+  
