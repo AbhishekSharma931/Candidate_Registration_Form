@@ -30,12 +30,7 @@ This challenge is a Candidate Registration Form that captures critical facts wit
 2. Form Submission: On submitting the form, data will  sent to the submitted.html file.## Customization
 
 To customize the form, open index.html and modify the HTML elements as needed. You can add, edit, or remove fields to fit your specific requirements.
-## Adding a New Field
 
--> Open index.html and find the <form> tag.
--> Add a new <input> or <select> field with appropriate name and id attributes.
--> Update the CSS if required to maintain a consistent design.
--> If using JavaScript for validation, update the validateForm() function to include the new field.
 ## Contributing
 
 Contributions are always welcome!
