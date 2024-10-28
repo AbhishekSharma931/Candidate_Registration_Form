@@ -23,7 +23,6 @@ This challenge is a Candidate Registration Form that captures critical facts wit
 
 
 
-
 ## Technologies Used
 
 - **HTML**: Structuring the form elements.
@@ -35,6 +34,7 @@ This challenge is a Candidate Registration Form that captures critical facts wit
 1. **Click on the below link to see the project**:
    ```bash
    ( https://abhisheksharma931.github.io/Candidate_Registration_Form/ )
+   
 ## Usage
 
 1. Fill Out the Form: Enter candidate details such as name, email, phone number, education, and address.
@@ -45,7 +45,8 @@ This challenge is a Candidate Registration Form that captures critical facts wit
 
 To customize the form, open index.html and modify the HTML elements as needed. You can add, edit, or remove fields to fit your specific requirements.
 
-#### Adding a New Field
+## Adding a New Field
+
 1. Open index.html and find the <form> tag.
 2. Add a new <input> or <select> field with appropriate name and id attributes.
 3. Update the CSS if required to maintain a consistent design.
@@ -76,6 +77,7 @@ It provides a streamlined interface for entering personal details, contact infor
 ## Prerequisites
   -> For Local Deployment
      Web Browser: Chrome, Firefox, Safari, etc.
+     
 ## FAQ
 
 #### 1. What data does the Candidate Registration Form gather?
