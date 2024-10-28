@@ -1,7 +1,10 @@
 # Candidate_Registration_Form
 
 
-This challenge is a Candidate Registration Form that captures critical facts with a focus on dynamic consumer interactions. The form allows users to enter simple facts, deal with details, and academic qualifications. It features dynamic fields that alter based on user enter and gives validation to make certain records integrity.## Table of Contents
+This challenge is a Candidate Registration Form that captures critical facts with a focus on dynamic consumer interactions. The form allows users to enter simple facts, deal with details, and academic qualifications. It features dynamic fields that alter based on user enter and gives validation to make certain records integrity.
+
+
+## Table of Contents
 
 - [Features]
 - [Technologies Used]
