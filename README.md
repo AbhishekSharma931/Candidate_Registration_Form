@@ -48,10 +48,6 @@ This project is open source and available under the MIT License. (Made by Abhish
 ## Documentation
 
 It provides a streamlined interface for entering personal details, contact information, educational background, skills, and address. This form is designed to be easily customizable and adaptable, allowing organizations to gather necessary candidate data efficiently.
--> Open index.html and find the <form> tag.
--> Add a new <input> or <select> field with appropriate name and id attributes.
--> Update the CSS if required to maintain a consistent design.
--> If using JavaScript for validation, update the validateForm() function to include the new field.
 
 ## Prerequisites
   -> For Local Deployment
