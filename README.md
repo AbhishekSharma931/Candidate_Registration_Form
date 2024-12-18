@@ -5,7 +5,7 @@ This challenge is a Candidate Registration Form that captures critical facts wit
 
 ## Table of Contents
 
-- [Features]
+- [Features] 
 - [Technologies Used]
 - [Getting Started]
 - [Usage]
